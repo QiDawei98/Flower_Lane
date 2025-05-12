@@ -5,7 +5,7 @@ A python script to perform Non Covalent Interactions index (NCI) analysis using 
 ## How to use?
 Place your CHGCAR in the same directory with Flower_Lane.py then run it. The calculation may take 15 minutes or longer depending on your system.  
 
-Open the resulting RDG file in Vesta, then use edit > edit data > volumetric data to load sl2rho file to surce coloring. Set the isosurface value to 0.5. Vesta will then render regions for non-covalent interactions, using color to indicate their nature (attractive, repulsive).
+Open the resulting RDG (Reduced Density Gradient) file in Vesta, then use edit > edit data > volumetric data to load sl2rho file to surce coloring. Set the isosurface value to 0.5. Vesta will then render regions for non-covalent interactions, using color to indicate their nature (attractive, repulsive).
 
 Comments and documentation will be added soon, covering basic usage and details of the implementation.
 
