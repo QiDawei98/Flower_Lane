@@ -16,7 +16,6 @@ Existing NCI implementations produce graphs that are visually less appealing tha
 
 Despite its simplicity, we believe our algorithm is superior to other currently available options.
 
-
 ## Acknowledgements
 This is a collaborative work with Wang Xiu. We created the first fully functional prototype program together.
 
