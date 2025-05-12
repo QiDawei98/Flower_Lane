@@ -1,6 +1,6 @@
 # Flower_Lane
 
-A python script to perform Non Covalent Index (NCI) analysis using electron density calculated by VASP (from CHGCAR files).
+A python script to perform Non Covalent Interactions index (NCI) analysis using electron density calculated by VASP (from CHGCAR files).
 
 ## How to use?
 Place your CHGCAR in the same directory with Flower_Lane.py then run it. The calculation may take 15 minutes or longer depending on your system.  
