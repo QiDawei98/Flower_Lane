@@ -22,9 +22,10 @@ def interpolator(args):
     return interp(xi)
 
 if __name__ == '__main__':
+    #use an integer smaller than cpu_count to resolve RAM issue
     cores = cpu_count()
-#   cores = 12 #If it uses all your RAM, uncomment this line and set it to a value smaller than the number of your logical cores.
     
+    #Specify your path here
     file_path = r"G:\CHGCAR_mp-51"
 
     with open(file_path, 'r') as file:
