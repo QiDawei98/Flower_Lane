@@ -3,7 +3,7 @@
 A python script to perform Non Covalent Interactions index (NCI) analysis using electron density calculated by VASP (from CHGCAR files).
 
 ## How to use?
-Place your CHGCAR in the same directory with Flower_Lane.py then run it. The calculation may take 15 minutes or longer depending on your system.  
+Place your CHGCAR in the path specified in script then run it. The calculation may take 15 minutes or longer depending on your system.  
 
 Open the resulting RDG (Reduced Density Gradient) file in Vesta, then use edit > edit data > volumetric data to load sl2rho file to surce coloring. Set the isosurface value to 0.5. Vesta will then render regions for non-covalent interactions, using color to indicate their nature (attractive, repulsive).
 
