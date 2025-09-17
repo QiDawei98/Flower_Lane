@@ -1,7 +1,4 @@
-<div style="color:red">
-WARNING: A bug has been reported by Liu Guoliang that occurs when the minimum value of sl2rho is greater than -0.4 a.u. A fix is in progress.
-</div>
-
+- WARNING: A bug has been reported by Liu Guoliang that occurs when the minimum value of sl2rho is greater than -0.4 a.u. A fix is in progress.
 # Flower_Lane
 
 A python script to perform Non Covalent Interactions index (NCI) analysis using electron density calculated by VASP (from CHGCAR files).  
