@@ -10,7 +10,7 @@ Place your CHGCAR in the path specified in script then run it. The calculation m
 
 Open the resulting RDG (Reduced Density Gradient) file in Vesta, then use edit > edit data > volumetric data to load sl2rho file to surface coloring. Set the isosurface value to 0.5. Vesta will then render regions for non-covalent interactions, using color to indicate their nature (attractive, repulsive).
 
-Comments and documentation will be added soon, covering basic usage and details of the implementation.
+This project currently lacks documentation. I will add documentation and fix bugs as my schedule permits. In the meantime, if you encounter any difficulties, please feel free to email me with your CHGCAR file. 
 
 ## Algorithm
 The program uses finite difference method on RBF interpolated data points. Visually, the results are indistinguishable from direct finite difference gradients calculated on cubic crystal systems using numpy.gradient and without interpolation.
