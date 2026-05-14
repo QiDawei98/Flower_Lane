@@ -36,14 +36,17 @@ if __name__ == '__main__':
     m = re.search(r"^\s+ (-?\d+.\d+) \s+ (-?\d+.\d+) \s+ (-?\d+.\d+)", lines[2], re.VERBOSE) 
     a = np.array(m.groups(), dtype = float)
     a *= scaling_factor
+    a *= 1.889726
 
     m = re.search(r"^\s+ (-?\d+.\d+) \s+ (-?\d+.\d+) \s+ (-?\d+.\d+)", lines[3], re.VERBOSE) 
     b = np.array(m.groups(), dtype = float)
     b *= scaling_factor
+    b *= 1.889726
 
     m = re.search(r"^\s+ (-?\d+.\d+) \s+ (-?\d+.\d+) \s+ (-?\d+.\d+)", lines[4], re.VERBOSE) 
     c = np.array(m.groups(), dtype = float)
     c *= scaling_factor
+    c *= 1.889726
 
     start_copying = False
     extracted_lines = []
