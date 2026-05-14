@@ -1,4 +1,3 @@
-### WARNING: A bug has been reported by Liu Guoliang that occurs when the minimum value of sl2rho is greater than -0.4 a.u. A fix is in progress. ###
 # Flower_Lane
 
 A python script to perform Non Covalent Interactions index (NCI) analysis using electron density calculated by VASP (from CHGCAR files).  
@@ -15,9 +14,7 @@ This project currently lacks documentation. I will add documentation and fix bug
 ## Algorithm
 The program uses finite difference method on RBF interpolated data points. Visually, the results are indistinguishable from direct finite difference gradients calculated on cubic crystal systems using numpy.gradient and without interpolation.
 
-Existing NCI implementations produce graphs that are visually less appealing than ours and do not accurately match results calculated directly from cubic systems. Furthermore, existing methods are known to cause unintuitive repulsion regions between ionic bonds.
-
-Despite its simplicity, we believe our algorithm is superior to other currently available options.
+An update with a faster algorithm is on the to-do list for when time permits!
 
 ## Acknowledgements
 This is a collaborative work with Wang Xiu. We created the first fully functional prototype program together.
